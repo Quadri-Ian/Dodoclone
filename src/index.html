@@ -1,0 +1,661 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/de85057d8c.js" crossorigin="anonymous"></script>
+</head>
+<body class="">
+        <nav class="relative lg:mx-28  lg:my-4 px-4 py-4 flex justify-between bg-white">
+            <a class="text-3xl font-bold leading-none" href="#">
+                <div class="text-white flex justify-between z-20">
+                    <img class="w-10" src="./images/dodologo.jpg" alt="img">
+                    <p 
+                    class="text-black text-3xl pl-4">
+                      DODO PIZZA</p>
+                   </div>
+            </a>
+
+            <div class="hidden lg:block">
+                <p>Gourmet pizza delivery in <span class="text-orange-600">Lagos</span></p>
+            </div>
+            <div>
+                <p class="hidden lg:block">+234700DODOPIZZA
+                    Call</p>
+            </div>
+            <div class="hidden lg:flex flex-col items-center text-black">
+                <i class="fa-brands fa-dyalog"></i>
+                <p>Dodocoins</p>
+            </div>
+            <div class="hidden lg:block">
+                <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Log in</a>
+                </div>
+
+                <div class="lg:hidden">
+                    <button class="navbar-burger flex items-center text-orange-600 p-3">
+                        <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Mobile menu</title>
+                            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                        </svg>
+                    </button>
+                </div>
+        </nav>
+        <div>
+        <div class="navbar-menu relative z-50 hidden">
+            <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+            <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-full z-10 h-screen py-6 px-6 bg-black border-r transform delay-300 transition-all duration-300 overflow-y-auto">
+                <div class="flex items-center mb-8 border-b-[1px] border-neutral-800">
+                    <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                        <div class="text-white flex w-full justify-between z-20 ">
+                            <img class="w-10" src="./images/dodologo.jpg" alt="img">
+                            <p 
+                            class="text-black text-3xl text-bold pl-4">
+                              DODO PIZZA</p>
+                           </div>
+                    </a>
+                    <button class="navbar-close">
+                        <svg class="h-6 w-8 text-white cursor-pointer hover:text-orange-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 18L18 6M6 6l12 8"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div>
+                    <ul>
+                        <li class="mb-1 border-b-[1px] border-neutral-800">
+                            <a class="block py-4 text-sm font-semibold  text-white hover:bg-blue-50 hover:text-orange-600 rounded" href="#"><i class="pr-4 fa-solid fa-location-dot"></i>Lagos</a>
+                        </li>
+                        <li class="mb-1 border-b-[1px] border-neutral-800">
+                            <a class="block px-6 py-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-orange-600 rounded" href="#">44 min</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block px-6 py-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-orange-600 rounded" href="#">Log in</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block px-6 py-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-orange-600 rounded" href="#">Dodocoins</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block px-6 py-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-orange-600 rounded" href="#">Deals</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block px-6 py-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-orange-600 rounded" href="#">Delivery Area</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block px-6 py-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-orange-600 rounded border-b-[1px] border-neutral-800" href="#">About Us</a>
+                        </li>
+                        <li class="mb-1">
+                            <a class="block py-4 text-sm font-semibold text-white hover:bg-blue-50 hover:text-orange-600 rounded" href="#"><i class="pr-4 fa-solid fa-mobile-screen"></i>+234700DODPIZZA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-auto">
+                    <a href="#"><img class="w-24" src="./Images//googleplay.png" alt=""></a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="navbar-burger-ii bottom-4 right-0 fixed rounded-full bg-orange-400 opacity-75 items-center lg:hidden">
+          <a href="#"><i class="p-4 fa-solid fa-location-dot"></i></a>
+        </div>
+        <div class="hidden lg:flex justify-between items-center sticky top-0 flex gap-x-8 overflow-x-auto no-scrollbar py-2 px-8 
+        bg-white bg-opacity-10 backdrop-blur-xl rounded drop-shadow-lg px-28">
+        <div class="flex">
+          <img class=" w-8" src="./images/dodologo.jpg" alt="img">
+          <a href="#combos" class="py-2 px-4 focus:text-orange-400">Combos</a>
+          <a href="#pizza" class="py-2 px-4">Pizza</a>
+          <a href="#sides" class="py-2 px-4">Sides</a>
+          <a href="#desserts" class="py-2 px-4">Desserts</a>
+          <a href="#drink" class="py-2 px-4">Drink</a>
+        </div>
+        <div class="">
+          <button class="navbar-burger-ii flex items-center text-orange-600 p-3">
+            <div class="items-center">
+                <a href="#" class="py-2 px-8 rounded-full bg-orange-500 text-black">Track Order</a>
+              </div>
+        </button>
+        </div>
+        </div>
+
+        <div>
+          <div class="navbar-menu-ii relative z-50 hidden">
+          <div class="navbar-backdrop-ii fixed inset-0 bg-gray-800 opacity-25"></div>
+          <nav class="fixed top-0 right-0 bottom-0 flex flex-col w-9/12 z-10 h-screen py-6 bg-white border-r transform delay-300 transition-all duration-300 overflow-y-auto">
+              <div class="flex  lg:px-6 pb-2 justify-between">
+                  <a class="mr-auto text-2xl font-bold leading-none" href="#">
+                      <div class="text-white flex w-full justify-between z-20 ">
+                          <img class="w-8 lg:w-10" src="./images/dodologo.jpg" alt="img">
+                          <p 
+                          class="text-black text-1xl text-bold pl-2 lg:pl-4 lg:text-3xl">
+                            DODO PIZZA</p>
+                         </div>
+                  </a>
+
+                  <button class="navbar-close-ii">
+                    <svg class=" w-8 text-black  cursor-pointer  hover:text-orange-600 bg-orange-500 rounded-full" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 18L18 6M6 6l12 8"></path>
+                    </svg>
+                    
+                </button>
+              </div>
+              <hr class="border-black pb-4">
+                  <div class="text-center text-orange-300">
+                      <img class="" src="images/motorbike1.jpg" alt="img">
+                      <H2 class="text-2xl font-bold ">HOW<span class="text-orange-500">D</span>Y!</H2>
+                      <p class="font-semibold">E.T.A <span class="text-orange-500 italic">16mins 23s</span></p>
+                  </div>
+              
+                  <div class="bottom-0 align-bottom mt-12 text-center text-4xl italic font-bold text-orange-500">
+                      <p>Enjoy your treat!</p>
+                  </div>
+          </nav>
+          </div>
+    <div class="hidden lg:block">
+      <!-- Implement the carousel -->
+      <div class="relative mx-28">
+          <div class="slide duration-700 ease-in-out">
+              <img class="w-full h-[300px] object-cover transform duration-700 ease-in-out"
+                  src="Images/intro.jpeg">
+          </div>
+  
+          <div class="slide relative duration-700 ease-in-out">
+              <img class="w-full h-[300px] object-cover duration-700 ease-in-out"
+                  src="Images/delivery.jpeg">
+          </div>
+  
+          <div class="slide relative duration-700 ease-in-out">
+              <img class="w-full h-[300px] object-cover duration-700 ease-in-out"
+                  src="Images/naija.jpeg">
+              </div>
+          </div>
+  
+          <!-- The previous button -->
+          <a class="absolute left-0 top-1/2 p-4 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer mx-28"
+              onclick="moveSlide(-1)"><</a>
+  
+          <!-- The next button -->
+          <a class="absolute right-0 top-1/2 p-4 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white hover:text-amber-500 cursor-pointer mx-28"
+              onclick="moveSlide(1)">></a>
+  
+      </div>
+      <br>
+  
+      <!-- The dots -->
+      <div class="flex hidden lg:flex justify-center items-center space-x-5">
+          <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(1)"></div>
+          <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(2)"></div>
+          <div class="dot w-4 h-4 rounded-full cursor-pointer" onclick="currentSlide(3)"></div>
+      </div>
+
+      <div class="flex lg:hidden overflow-x-auto no-scrollbar gap-x-4 p-8">
+        <img class="" src="./Images/StoryOne.webp" alt="img"/>
+        <img class="" src="./Images/StoryTwo.webp" alt="img"/>
+        <img class="" src="./Images/StoryThree.webp" alt="img"/>
+        <img class="" src="./Images/StoryFour.webp" alt="img"/>
+      </div>
+
+  
+    <div class="lg:hidden sticky top-0 flex gap-x-8 overflow-x-auto no-scrollbar px-8 
+    bg-white bg-opacity-20 backdrop-blur-3xl rounded drop-shadow-lg">
+    <a href="#combos" class="py-2 px-4 rounded-full bg-slate-200 active:bg-orange-400">Combos</a>
+    <a href="#pizza" class="py-2 px-4 rounded-full bg-slate-200">Pizza</a>
+    <a href="#sides" class="py-2 px-4 rounded-full bg-slate-200">Sides</a>
+    <a href="#desserts" class="py-2 px-4 rounded-full bg-slate-200">Desserts</a>
+    <a href="#drink" class="py-2 px-4 rounded-full bg-slate-200">Drink</a>
+    </div>
+  
+    <div class="px-4 mt-12 lg:mx-28">
+        <div id="combos">
+            <h3 class="text-3xl">Combos</h3>
+            <div class="lg:flex gap-x-10">
+          <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+            <div class="row-span-2">
+            <img class="" src="./Images/StoryFour.webp" alt="img"/>
+            </div>
+      
+            <div class="lg:my-[-40px]">
+            <p class="text-2xl">Daily Boost</p>
+            <p class="text-sm">
+              Boost your day without signature Dodster + any chilled Coca-Cola
+              50cl/60cl drink for ₦2100
+            </p>
+            </div>
+      
+            <div class="lg:my-[-60px]">
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600 lg:hidden">from ₦4,100</a>
+            <div class="hidden lg:flex items-center justify-between">
+             <p class="font-bold">₦2,100</p>
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Select</a>
+            </div> 
+            </div>
+          </div>
+      
+          <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+            <div class="row-span-2">
+            <img class="" src="./Images/duet.webp" alt="img"/>
+            </div>
+      
+            <div class="lg:my-[-40px]">
+            <p class="text-2xl">Pizza Duet</p>
+            <p class="text-sm">
+                Look, its a pizza duet! Buy 2 medium pizzas and 2 50cl/60cl Coca-Cola drinks for N5900
+            </p>
+            </div>
+      
+            <div class="lg:my-[-60px]">
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600 lg:hidden">from ₦4,100</a>
+            <div class="hidden lg:flex items-center justify-between">
+             <p class="font-bold">₦2,500</p>
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Select</a>
+            </div> 
+            </div>
+          </div>
+      
+          <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+            <div class="row-span-2">
+            <img class="" src="./Images/image3.webp" alt="img"/>
+            </div>
+      
+            <div class="lg:my-[-40px]">
+            <p class="text-2xl">Combo for One</p>
+            <p class="text-sm">
+              One medium pizza, four piece of chicken strips and a 50cl/60cl
+              Coca-Cola drink. Ideal combination to indulge one person.
+            </p>
+            </div>
+      
+            <div class="lg:my-[-60px]">
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600 lg:hidden">from ₦4,100</a>
+            <div class="hidden lg:flex items-center justify-between">
+             <p class="font-bold">₦2,100</p>
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Select</a>
+            </div>        </div>
+          </div>
+    
+          <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+            <div class="row-span-2">
+            <img class="" src="./Images/family.webp" alt="img"/>
+            </div>
+      
+            <div class="lg:my-[-40px]">
+            <p class="text-2xl">Family Deal</p>
+            <p class="text-sm">
+                Buy any large pizza + 10 pieces of chicken wings + any 50cl/60cl coca-cola drink for N7900
+            </p>
+            </div>
+      
+            <div class="lg:my-[-60px]">
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600 lg:hidden">from ₦4,100</a>
+            <div class="hidden lg:flex items-center justify-between">
+             <p class="font-bold">₦4,100</p>
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Select</a>
+            </div>        </div>
+          </div>
+            </div> 
+        </div>
+ 
+        <div id="pizza">
+          <h3 class="text-3xl">Pizza</h3>
+          <div class="lg:flex gap-x-10">
+            <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+            <div class="row-span-2">
+            <img class="" src="./Images/image2.webp" alt="img"/>
+            </div>
+      
+            <div class="lg:my-[-20px]">
+            <p class="text-2xl">Half & Half Pizza</p>
+            <p class="text-sm">
+              Two pizzas in one
+            </p>
+            </div>
+      
+            <div class="lg:my-[-40px]">
+                <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600 lg:hidden">from ₦4,100</a>
+                <div class="hidden lg:flex items-center justify-between">
+                 <p class="font-bold">from ₦4,100</p>
+                <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Select</a>
+                </div>
+            </div>
+          </div>
+      
+          <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+            <div class="row-span-2">
+            <img class="" src="./Images/magarita.webp" alt="img"/>
+            </div>
+      
+            <div class="lg:my-[-20px]">
+            <p class="text-2xl">Margherita</p>
+            <p class="text-sm">
+                Mozzarella, tomato sauce
+            </p>
+            </div>
+      
+            <div class="lg:my-[-40px]">
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600 lg:hidden">from ₦4,100</a>
+            <div class="hidden lg:flex items-center justify-between">
+             <p class="font-bold">from ₦4,100</p>
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Select</a>
+            </div>
+            </div>
+          </div>
+      
+          <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+            <div class="row-span-2">
+            <img class="" src="./Images/image5.webp" alt="img"/>
+            </div>
+      
+            <div class="lg:my-[-20px]">
+            <p class="text-2xl">Pepperoni</p>
+            <p class="text-sm">
+              Pepperoni, mozzarella, tomato sauce
+            </p>
+            </div>
+      
+            <div class="lg:my-[-40px]">
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600 lg:hidden">from ₦4,100</a>
+            <div class="hidden lg:flex items-center justify-between">
+             <p class="font-bold">from ₦4,100</p>
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Select</a>
+            </div>
+            </div>
+          </div>
+    
+          <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+            <div class="row-span-2">
+            <img class="" src="./Images/cheesy.webp" alt="img"/>
+            </div>
+      
+            <div class="lg:my-[-20px]">
+            <p class="text-2xl">Cheesy Chicken</p>
+            <p class="text-sm">
+                Chicken, tomatoes, cheddar, mozzarella, cheese sauce
+            </p>
+            </div>
+      
+            <div class="lg:my-[-40px]">
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600 lg:hidden">from ₦4,100</a>
+            <div class="hidden lg:flex items-center justify-between">
+             <p class="font-bold">from ₦4,100</p>
+            <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">Select</a>
+            </div>
+    
+            </div>
+          </div>
+          </div>
+        </div>
+      
+        <div id="sides">
+          <h3 class="text-3xl">Sides</h3>
+          <div class="lg:flex gap-x-10">
+            <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                <div class="row-span-2">
+                <img class="" src="./Images/image6.webp" alt="img"/>
+                </div>
+          
+                <div class="lg:my-[-40px]">
+                <p class="text-2xl">Sausage Rolls</p>
+                <p class="text-sm">
+                  Specialty. Small rolls of dodo dough with cheese sauce, mozzarella & sausages
+                </p>
+                </div>
+          
+                <div class="lg:my-[-20px]">
+                <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">from ₦1,700</a>
+                </div>
+              </div>
+          
+              <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                <div class="row-span-2">
+                <img class="" src="./Images/image7.webp" alt="img"/>
+                </div>
+          
+                <div class="lg:my-[-40px]">
+                <p class="text-2xl">Classic Dodster</p>
+                <p class="text-sm">
+                  Hot baked wrpped with chicken,tomatoes, mozzarella and mayonnaise sauce& ketchup.
+                </p>
+                </div>
+          
+                <div class="lg:my-[-20px]">
+                <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">₦2000</a>
+                </div>
+              </div>
+          
+              <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2  pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                <div class="row-span-2">
+                <img class="" src="./Images/image8.webp" alt="img"/>
+                </div>
+          
+                <div class="lg:my-[-40px]">
+                <p class="text-2xl">Beef Suya Dodster</p>
+                <p class="text-sm">
+                  Hot baked wrapped with spicy meatballs, red onions, tomatoes, mozzarella and suya mayonnaise sauce
+                </p>
+                </div>
+          
+                <div class="lg:my-[-20px]">
+                <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">₦2000</a>
+                </div>
+                </div>
+    
+                <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2  pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                    <div class="row-span-2">
+                    <img class="" src="./Images/image8.webp" alt="img"/>
+                    </div>
+              
+                    <div class="lg:my-[-40px]">
+                    <p class="text-2xl">Beef Suya Dodster</p>
+                    <p class="text-sm">
+                      Hot baked wrapped with spicy meatballs, red onions, tomatoes, mozzarella and suya mayonnaise sauce
+                    </p>
+                    </div>
+              
+                    <div class="lg:my-[-20px]">
+                    <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">₦2000</a>
+                    </div>
+                    </div>
+          </div>
+        </div>
+
+        <div id="desserts">
+          <h3 class="text-3xl">Desserts</h3>
+
+          <div class="lg:flex gap-x-10">
+              <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                  <div class="row-span-2">
+                  <img class="" src="./Images/image9.webp" alt="img"/>
+                  </div>
+            
+                  <div class="lg:my-[-40px]">
+                  <p class="text-2xl">Chocolate Rolls</p>
+                  <p class="text-sm">
+                   Specialty. small rolls of dodo dough with melted chocolate and chocolate sauce
+                  </p>
+                  </div>
+            
+                  <div class="lg:my-[-60px]">
+                  <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">from ₦1,500</a>
+                  </div>
+                </div>
+            
+                <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                  <div class="row-span-2">
+                  <img class="" src="./Images/image10.webp" alt="img"/>
+                  </div>
+            
+                  <div class="lg:my-[-40px]">
+                  <p class="text-2xl">Ice Cream Strawberry 0.15L</p>
+                  </div>
+            
+                  <div class="lg:my-[-60px]">
+                  <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">₦1000</a>
+                  </div>
+                </div>
+            
+                <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                  <div class="row-span-2">
+                  <img class="" src="./Images/image11.webp" alt="img"/>
+                  </div>
+            
+                  <div class="lg:my-[-40px]">
+                  <p class="text-2xl">Ice Cream Stracciatella 0.15L</p>
+                  </div>
+            
+                  <div class="lg:my-[-60px]">
+                  <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">₦1000</a>
+                  </div>
+                  </div>
+  
+                  <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                      <div class="row-span-2">
+                      <img class="" src="./Images/image11.webp" alt="img"/>
+                      </div>
+                
+                      <div class="lg:my-[-40px]">
+                      <p class="text-2xl">Ice Cream Stracciatella 0.15L</p>
+                      </div>
+                
+                      <div class="lg:my-[-60px]">
+                      <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">₦1000</a>
+                      </div>
+                      </div>
+          </div>
+        </div>
+
+        <div id="drinks">
+          <h3 class="text-3xl">Drinks</h3>
+          <div class="lg:flex gap-x-10">
+              <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                  <div class="row-span-2">
+                  <img class="" src="./Images/coke.webp" alt="img"/>
+                  </div>
+            
+                  <div class="lg:my-[-10px]">
+                  <p class="text-2xl">Coca-Cola</p>
+                  </div>
+            
+                  <div class="lg:my-[-60px]">
+                  <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">from ₦400</a>
+                  </div>
+                </div>
+            
+                <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                  <div class="row-span-2">
+                  <img class="" src="./Images/fanta.webp" alt="img"/>
+                  </div>
+            
+                  <div class="lg:my-[-10px]">
+                  <p class="text-2xl">Fanta</p>
+                  </div>
+            
+                  <div class="lg:my-[-60px]">
+                  <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">from ₦400</a>
+                  </div>
+                </div>
+            
+                <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                  <div class="row-span-2">
+                  <img class="" src="./Images/Fivealive.webp" alt="img"/>
+                  </div>
+            
+                  <div class="lg:my-[-10px]">
+                  <p class="text-2xl">Juice 5 Alive Tropic</p>
+                  </div>
+            
+                  <div class="lg:my-[-60px]">
+                  <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">from ₦400</a>
+                  </div>
+                  </div>
+  
+                  <div class="grid pt-10 grid-cols-2 grid-rows-2 gap-x-2 border-b-[1px] pb-6 lg:grid-rows-4 lg:grid-cols-1 lg:border-hidden">
+                      <div class="row-span-2">
+                      <img class="" src="./Images/Fivealive.webp" alt="img"/>
+                      </div>
+                
+                      <div class="lg:my-[-10px]">
+                      <p class="text-2xl">Juice 5 Alive Tropic</p>
+                      </div>
+                
+                      <div class="lg:my-[-60px]">
+                      <a href="#" class="py-2 px-8 rounded-full bg-orange-100 text-orange-600">from ₦400</a>
+                      </div>
+                      </div>
+          </div>
+        </div>
+
+    </div>
+  
+    <footer class="bg-black text-white px-4">
+        <div class="lg:hidden">
+      <div class="border-b-[1px] border-neutral-800 p-4">
+        <p>Call</p>
+        <p class="text-2xl">
+          +234700DODPIZZA
+        </p>
+        <p class="text-sm">Contact@dodopiza.ng</p>
+      </div>
+  
+      <div class="border-b-[1px] border-neutral-800 p-4">
+        <p class="font-bold">Dodo Pizza</p>
+        <p>Dodo Pizza Story</p>
+      </div>
+      <div class="border-b-[1px] border-neutral-800 text-white p-4">
+        <a class="pr-2" href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a><br>
+                    <div class="flex pt-4 gap-x-4">
+                        <a href="#"><img class="w-24" src="./images/appstore.jpg" alt=""></a>
+                        <a href="#"><img class="w-24" src="./Images//googleplay.png" alt=""></a>
+                    </div>
+
+      </div>
+      <div class="flex flex-col border-b-[1px] border-neutral-800 p-4">
+        <a href="#">Terms of services</a>
+        <a href="#">Dodo Pizza Story</a>
+      </div>
+      <p class="border-b-[1px] border-neutral-800 p-4">DODO PIZZA © 2023</p>
+        </div>
+        <div class="hidden px-24 py-6 lg:block">
+            <div class="flex justify-between">
+                <div>
+                    <p>Dodo Pizza</p>
+                    <p class="text-neutral-600">Dodo Pizza Story</p>
+                </div>
+                <div class="">
+                    <div class="flex py-4 gap-x-8">
+                        <a href="#"><img class="w-24" src="./images/appstore.jpg" alt=""></a>
+                        <a href="#"><img class="w-24" src="./Images//googleplay.png" alt=""></a>
+                    </div>
+
+                    <div class="flex flex-col py-4 justify-right text-right">
+                        <p class="text-neutral-600">Call</p>
+                        <p class="text-2xl">
+                          +234700DODPIZZA
+                        </p>
+                    </div>
+                    <div class="text-neutral-600 text-right py-4 flex flex-col justify-right">
+                        <p>
+                            We accept
+                        </p>
+                        <a href="#"><img class="w-64" src="./images/visa.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-between">
+                <div class="flex gap-x-4 text-neutral-400">
+                    <p>DODO PIZZA © 2023</p>
+                    <p>Terms of service</p>
+                    <p>Dodo Pizza Story</p>
+                </div>
+                <div class="flex gap-x-4 text-neutral-400">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
